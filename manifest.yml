@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: Paytons NodeR project V1
+  host: Paytos34
+  disk_quota: 1024M
+  services:
+  - Paytons NodeR project V1-cloudantNoSQLDB
